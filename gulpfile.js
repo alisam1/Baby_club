@@ -19,15 +19,6 @@ gulp.task("style", function() {
     .pipe(server.stream());
 });
 
-gulp.task('webserver', function() {
-  gulp.src('app')
-    .pipe(webserver({
-      livereload: true,
-      directoryListing: true,
-      open: true
-    }));
-});
-
 gulp.task("serve", ["style"], function() {
   server.init({
     server: "source/",
