@@ -1,0 +1,32 @@
+{
+  "name": "baby_club",
+  "version": "1.0.0",
+  "description": "BabyClub Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisam1/Baby_club.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "gulp"
+  ],
+  "author": "Mariya M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisam1/Baby_club/issues"
+  },
+  "homepage": "https://github.com/alisam1/Baby_club#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "install": "^0.11.0",
+    "npm": "^6.1.0"
+  }
+}
