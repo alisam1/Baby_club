@@ -1,0 +1,52 @@
+.header-block
+{
+  height: 433px;
+  background-image: url('/img/main_fon.png');
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: relative;
+  bottom: 30px;
+}
+
+.main-title
+{
+  width: 300px;
+  font-family: "RobotoSlab-Bold";
+  font-size: 35px;
+  line-height: 48px;
+  color: #fff;
+  padding-left: 40px;
+  padding-top: 35px;
+}
+
+.header-video
+{
+  margin-left: 300px;
+  margin-top: -10px;
+  position: relative;
+  right: 10px;
+}
+
+.header-video__text
+{
+  font-family: "RobotoSlab-Regular";
+  font-size: 16px;
+  color: #6b6b6b;
+  position: relative;
+  bottom: 67px;
+  left: 30px;
+}
+
+.header-video__text::after
+{
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url('/img/video_button.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  bottom: 23px;
+  left: 220px;
+}

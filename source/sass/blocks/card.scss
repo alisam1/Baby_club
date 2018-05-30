@@ -1,0 +1,70 @@
+.card-title
+{
+  font-family: "RobotoSlab-Bold";
+  font-size: 27px;
+  line-height: 27px;
+  color: #00a99d;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  left: -15px;
+}
+
+.card__box
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-card_part
+{
+  width: 420px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  &--second
+  {
+     margin-right: 30px;
+  }
+}
+
+
+.main-card__logo
+{
+  margin-left: 95px;
+  position: relative;
+  bottom: 45px;
+}
+
+.main-card__title
+{
+  width: 240px;
+  padding-left: 72px;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-family: "RobotoSlab-Bold";
+  font-size: 15px;
+  color: #cf1100;
+  text-align: center;
+}
+
+.main-card__list
+{
+  list-style-image: url('/img/card_list.png');
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.main-card__element
+{
+  font-family: "RobotoSlab-Regular";
+  font-size: 14px;
+  line-height: 36px;
+  margin-left: 30px;
+  padding-right: 15px;
+}

@@ -1,0 +1,98 @@
+.guarantee
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.guarantee-card
+{
+  width: 260px;
+  height: 340px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+  bottom: 50px;
+  margin-top: 40px;
+}
+
+.guarantee-card__title
+{
+  width: 180px;
+  font-family: "RobotoSlab-Bold";
+  font-size: 18px;
+  line-height: 18px;
+  color: #00a99d;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  margin-left: 20px;
+
+  &--partners:before
+  {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 40px;
+    background-image: url('/img/part_g.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    top:20px;
+  }
+
+  &--traning:before
+  {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 40px;
+    background-image: url('/img/traning_g.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    top:20px;
+  }
+
+  &--support:before
+  {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 40px;
+    background-image: url('/img/support_g.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    top:20px;
+  }
+}
+
+.guarantee-card__title--traning
+{
+  position: relative;
+  bottom: 35px;
+}
+
+.guarantee-card__list
+{
+  width: 160px;
+  list-style-image: url('/img/guaran_card.png');
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 23px;
+  right: 10px;
+  &--partners
+  {
+    position: relative;
+    bottom: 40px;
+  }
+}
+
+.guarantee-card__element
+{
+  font-family: "ArialRegular";
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: #252525;
+}
