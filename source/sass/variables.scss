@@ -1,1 +1,23 @@
+$slider-width-number: 224;
+$slider-width: #{$slider-width-number}px;
+$slider-height: 4px;
+$background-slider: #cccccc;
+$background-filled-slider: #e33d44;
+$thumb-width: 21px;
+$thumb-height: 23px;
+$thumb-radius: 8px;
+$thumb-background: url('/img/icon_prog.png');
+$thumb-border: 1px solid #777;
+$shadow-size: -8px;
+$fit-thumb-in-slider: -8px;
 
+
+@function makelongshadow($color, $size) {
+  $val: 5px 0 0 $size $color;
+
+  @for $i from 6 through $slider-width-number {
+    $val: #{$val}, #{$i}px 0 0 $size #{$color};
+  }
+
+  @return $val;
+}

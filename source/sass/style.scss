@@ -9,21 +9,33 @@
 @import "blocks/card.scss";
 @import "blocks/partners.scss";
 @import "blocks/guarantee.scss";
-
+@import "blocks/calculation.scss";
+@import "blocks/form.scss";
+@import "blocks/faq.scss";
+@import "blocks/reviews.scss";
+@import "blocks/photos.scss";
+@import "blocks/form_question.scss";
+@import "blocks/page-footer.scss";
 
 @font-face {
-font-family: "RobotoSlab-Regular";
-src: url("../fonts/RobotoSlab-Regular.ttf") format("ttf");
-font-weight: 400;
-font-style: normal;
-}
+			font-family: "RobotoSlabRegular";
+			src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
+			src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"),
+			url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
 
-@font-face {
-  font-family: "RobotoSlab-Bold";
-  src:  url("../fonts/RobotoSlab-Bold.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal;
-}
+	@font-face {
+			font-family: "RobotoSlabBold";
+			src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot");
+			src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"),
+			url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
 
 @font-face {
 font-family: "Vani";
@@ -40,18 +52,24 @@ font-style: normal;
 }
 
 @font-face {
-font-family: "Arial";
-src:  url("../fonts/Arial.ttf") format("ttf");
-font-weight: 400;
-font-style: normal;
-}
+			font-family: "ArialRegular";
+			src: url("../fonts/ArialRegular/ArialRegular.eot");
+			src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+			url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
 
-@font-face {
-font-family: "ArialRegular";
-src:  url("../fonts/Arial.ttf") format("ttf");
-font-weight: 400;
-font-style: normal;
-}
+	@font-face {
+			font-family: "ArialBold";
+			src: url("../fonts/ArialBold/ArialBold.eot");
+			src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+			url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
 
 
 body {
