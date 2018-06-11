@@ -15,6 +15,7 @@ var webp = require("gulp-webp");
 var imagemin = require("gulp-imagemin");
 var del = require("del");
 var run = require("run-sequence");
+var packjs = require("pack-js");
 
 gulp.task("style", function() {
   gulp.src("source/sass/style.scss")
