@@ -378,7 +378,7 @@ template {
 
 .header-block {
   height: 433px;
-  background-image: url("/img/main_fon.png");
+  background-image: url("../source/img/main_fon.png");
   background-repeat: no-repeat;
   z-index: 2;
   position: relative;
@@ -506,7 +506,7 @@ template {
   background: #f2594b; }
 
 .page-main {
-  background-image: url("/img/main_background.png");
+  background-image: url("../source/img/main_background.png");
   background-repeat: no-repeat; }
 
 .features {
@@ -1080,7 +1080,7 @@ template {
   display: block;
   width: 34px;
   height: 36px;
-  background-image: url("/img/stars_value.png");
+  background-image: url("/source/img/stars_value.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
