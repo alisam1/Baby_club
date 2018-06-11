@@ -314,7 +314,7 @@ template {
   content: "";
   display: block;
   height: 8px;
-  background-image: url("img/header_wave.png");
+  background-image: url("/img/header_wave.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
