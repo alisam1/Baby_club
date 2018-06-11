@@ -11,9 +11,9 @@
 .footer_title
 {
   font-family: "RobotoSlabBold";
-  font-size: 27px;
-  line-height: 27px;
-  color: #00a99d;
+  font-size: $title-size;
+  line-height: $title-line-height;
+  color: $title-color;
   text-align: center;
   padding-top: 40px;
 }

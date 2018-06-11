@@ -5,15 +5,15 @@
   background-image: url('/img/faq_back.png');
   background-repeat: no-repeat;
   position: relative;
-  bottom: 160px;
+  bottom: 170px;
 }
 
 .faq_title
 {
   font-family: "RobotoSlabBold";
-  font-size: 27px;
-  line-height: 27px;
-  color: #00a99d;
+  font-size: $title-size;
+  line-height: $title-line-height;
+  color: $title-color;
   padding-top: 40px;
   text-align: center;
 }
@@ -29,6 +29,12 @@
 {
   width: 420px;
   height: 120px;
+  margin-bottom: 10px;
+&--column
+{
+  position: relative;
+  left: 20px;
+}
 }
 
 .faq__question
@@ -69,4 +75,9 @@
   color: #333333;
   position: relative;
   bottom: 50px;
+
+  &--add
+  {
+    padding-top: 15px;
+  }
 }

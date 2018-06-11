@@ -103,13 +103,13 @@
               <img src="img/card_logo.png" alt="" width="218" height="39" class="main-card__logo">
             </div>
             <div class="main-card_part main-card_part--second ">
-              <h3 class="main-card__title">Детский сад на 30-45 детей 5 дней в неделю с контентом Бэби-клуба (итого 50 часов в неделю) </h3>
+              <h3 class="main-card__title main-card__title--second">Детский сад на 30-45 детей <br>5 дней в неделю с контентом Бэби-клуба (итого 50 часов в неделю) </h3>
               <ul class="main-card__list">
-                <li class="main-card__element">Для детей 8 мес.-6 лет.</li>
-                <li class="main-card__element">Включает в себя франшизу клуба.</li>
-                <li class="main-card__element">Обучение родительскому мастерству</li>
-                <li class="main-card__element">Две или три группы полного дня из 15 детей</li>
-                <li class="main-card__element">Помещение от 120 кв.м.</li>
+                <li class="main-card__element main-card__element--second">Для детей 8 мес.-6 лет (сад с 3 лет)</li>
+                <li class="main-card__element main-card__element--second">Включает в себя франшизу клуба</li>
+                <li class="main-card__element main-card__element--second">Обучение родительскому мастерству</li>
+                <li class="main-card__element main-card__element--second">Две или три группы полного дня из 15 детей</li>
+                <li class="main-card__element main-card__element--second">Помещение от 120 кв.м.</li>
               </ul>
             </div>
           </div>
@@ -121,7 +121,7 @@
         <div class="partners-card">
             <h3 class="partners-card__title">Став нашим партнером, вы получаете:</h3>
             <ul class="partners-card__list">
-              <li class="partners-card__element partners-card__element--progress"><span>Более 7500 развивающих заданий по уникальной методике Бэби клуба</span></li>
+              <li class="partners-card__element partners-card__element--progress"><span>Более 7500 развивающих <br>заданий по уникальной методике Бэби клуба</span></li>
               <li class="partners-card__element partners-card__element--tech"><span>Детально разработанную технологию, содержащую все этапы открытия и развития бизнеса</span></li>
               <li class="partners-card__element partners-card__element--teachers"><span>Лучших из лучших специалистов в области раннего развития детей</span></li>
               <li class="partners-card__element partners-card__element--traning"><span>Более 80 часов корпоративных тренингов</span></li>
@@ -145,12 +145,13 @@
         </div>
         <div class="guarantee-card">
             <h3 class="guarantee-card__title guarantee-card__title--traning">Обучение</h3>
-            <ul class="guarantee-card__list guarantee-card__list">
-              <li class="guarantee-card__element">Корпоративные тренинги</li>
-              <li class="guarantee-card__element">Корпоративная online площадка для обмена опытом между Партнёрами</li>
-              <li class="guarantee-card__element">Ежемесячные online собрания для всех Партнёров</li>
-              <li class="guarantee-card__element">Постоянное обновление методик обучения </li>
-              <li class="guarantee-card__element">Внедрение мировых практик</li>
+            <ul class="guarantee-card__list guarantee-card__list--traning">
+              <li class="guarantee-card__element guarantee-card__element--traning">Корпоративные тренинги</li>
+              <li class="guarantee-card__element guarantee-card__element--traning">Корпоративная online площадка для обмена опытом между Партнёрами</li>
+              <li class="guarantee-card__element guarantee-card__element--traning">Ежемесячные online собрания для всех Партнёров</li>
+              <li class="guarantee-card__element guarantee-card__element--traning">Ежегодное собрание франчайзи</li>
+              <li class="guarantee-card__element guarantee-card__element--traning">Постоянное обновление методик обучения </li>
+              <li class="guarantee-card__element guarantee-card__element--traning">Внедрение мировых практик</li>
             </ul>
         </div>
         <div class="guarantee-card">
@@ -182,19 +183,24 @@
                <div class="calculation_range">
                  <p class="calculation_range__description">Первоначальные инвестиции: <span class="calculation_range__description--siz">2</span> млн. <span class="calculation_range__description--annotation">(включая паушальный взнос)</span></p>
                  <div class="calc_range">
-
+                   <input type="range" step="5" min="150" max="250" list="rangeList" onchange="document.getElementById('rangeValue').innerHTML = this.value;">
+                   <datalist id="rangeList">
+                   <option value="0" label="0">
+                   <option value="5" label="5">
+                   <option value="10" label="10">
+                   </datalist>
                  </div>
                </div>
                <div class="calculation__value">
                  <p class="calculation__value--description">Средняя прибыль одного Baby-club</p>
                  <div class="range_value">
-                   <div id="rangeValue">150</div>
+                   <span id="rangeValue">200</span>
                    <p class="rangeValue_description">тысяч в месяц</p>
                  </div>
                </div>
               </div>
               <p class="tab-panels__description">Средний срок возврата —18 месяцев</p>
-              <p class="tab-panels__description">Коэффициент рентабельности инвестиций — 50%</p>
+              <p class="tab-panels__description tab-panels__description--second">Коэффициент рентабельности инвестиций — 50%</p>
             </section>
              <section id="rauchbier" class="tab-panel">
               <p>404</p>
@@ -206,7 +212,7 @@
       <section class="form">
         <h2 class="form_title">Запишитесь на презентацию</h2>
         <p class="form_description">и получите бесплатную консультацию</p>
-         <form id="application" action=" application.php" method="POST" name=" application ">
+         <form id="application" action="#" method="POST" name=" application ">
          <input name="name" id="applicationName" maxlength="20" placeholder="Ваше имя" required />
          <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Телефон" required />
          <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="E-mail" required/>
@@ -224,23 +230,23 @@
                 <p class="faq__question"><span class="faq__question--description">Я никогда не занимался бизнесом... Получится ли у меня?</span></p>
                 <p class="faq__answer">С нашей постоянной поддержкой и готовой бизнес-моделью вы получите гарантированный успех, как и 95% наших партнеров.</p>
               </div>
+              <div class="main_question main_question--column">
+                <p class="faq__question"><span class="faq__question--description">Разве я могу организовать занятия для детей, если я совсем не педагог?</span></p>
+                <p class="faq__answer">Вы пройдете 100 часов обучения в методическом центре Бэби-клуба и получите знания для общения с детьми и их родителям.</p>
+              </div>
               <div class="main_question">
                 <p class="faq__question"><span class="faq__question--description">Я боюсь конкурентов...</span></p>
-                <p class="faq__answer">У методики Baby club нет аналогов, потому что это уникальная система, включающая лучшие мировые практики по раннему развитию.</p>
+                <p class="faq__answer faq__answer--add">У методики Baby club нет аналогов, потому что это уникальная система, включающая лучшие мировые практики по раннему развитию.</p>
+              </div>
+              <div class="main_question main_question--column">
+                <p class="faq__question"><span class="faq__question--description">Разве детский клуб может быть прибыльным бизнесом?</span></p>
+                <p class="faq__answer">Вы сами заполните финансовую модель и увидите прибыль вашего клуба!</p>
               </div>
               <div class="main_question">
                 <p class="faq__question"><span class="faq__question--description">Есть ли у вас партнеры, которые открыли более одного клуба?</span></p>
                 <p class="faq__answer">Каждый пятый партнер сети имеет два и более Бэби-клубов</p>
               </div>
-              <div class="main_question">
-                <p class="faq__question"><span class="faq__question--description">Разве я могу организовать занятия для детей, если я совсем не педагог?</span></p>
-                <p class="faq__answer">Вы пройдете 100 часов обучения в методическом центре Бэби-клуба и получите знания для общения с детьми и их родителям.</p>
-              </div>
-              <div class="main_question">
-                <p class="faq__question"><span class="faq__question--description">Разве детский клуб может быть прибыльным бизнесом?</span></p>
-                <p class="faq__answer">Вы сами заполните финансовую модель и увидите прибыль вашего клуба!</p>
-              </div>
-              <div class="main_question">
+              <div class="main_question main_question--column">
                 <p class="faq__question"><span class="faq__question--description">Могу ли я пообщаться с вашими действующими партнерами?</span></p>
                 <p class="faq__answer">Вы имеете доступ к контактам всех партнеров и возможность приехать в любой клуб для получения опыта</p>
               </div>
@@ -252,7 +258,7 @@
         <div class="reviews-main">
         <blockquote class="reviews__item">
           <div class="reviews__about reviews__about--boronina">
-            <p class="reviews__text">Прошло больше 3 лет с открытия моего первого клуба в Химках. На протяжении всей работы меня не покидает ощущение абсолютного счастья и уверенности, что я в правильном месте, с правильными людьми и четкими целями.</p>
+            <p class="reviews__text reviews__text--boronina">Прошло больше 3 лет с открытия моего первого клуба в Химках. На протяжении всей работы меня не покидает ощущение абсолютного счастья и уверенности, что я в правильном месте, с правильными людьми и четкими целями.</p>
             <p class="reviews__author">Елена Боронина (Химки)</p>
           </div>
         </blockquote>

@@ -13,7 +13,7 @@
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   position: relative;
   bottom: 50px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .guarantee-card__title
@@ -38,7 +38,8 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
-    top:20px;
+    top: 25px;
+    right: 15px;
   }
 
   &--traning:before
@@ -68,6 +69,12 @@
   }
 }
 
+.guarantee-card__title--partners
+{
+  bottom: 45px;
+  padding-left: 15px;
+}
+
 .guarantee-card__title--traning
 {
   position: relative;
@@ -76,23 +83,36 @@
 
 .guarantee-card__list
 {
-  width: 160px;
   list-style-image: url('/img/guaran_card.png');
   padding-bottom: 20px;
   position: relative;
   bottom: 23px;
   right: 10px;
+  display: flex;
+  flex-direction: column;
   &--partners
   {
     position: relative;
-    bottom: 40px;
+    bottom: 55px;
+  }
+  &--traning
+  {
+    bottom:35px;
   }
 }
 
 .guarantee-card__element
 {
+  width: 200px;
   font-family: "ArialRegular";
   font-size: 13px;
-  padding-bottom: 10px;
+  line-height: 16px;
   color: #252525;
+  text-align: left;
+  margin-bottom: 12px;
+  &--traning
+  {
+    width: 180px;
+    margin-bottom: 10px;
+  }
 }

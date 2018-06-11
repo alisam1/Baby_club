@@ -434,13 +434,12 @@ template {
   left: 320px; }
 
 .header-form__title {
-  width: 180px;
   font-family: "RobotoSlabBold";
   color: #fff;
   font-size: 21px;
   position: relative;
-  bottom: 420px;
-  left: 750px; }
+  bottom: 425px;
+  left: 740px; }
 
 .header-form__top {
   height: 85px;
@@ -473,16 +472,20 @@ template {
   margin-top: 17px; }
 
 .header-register input {
-  font-family: "Roboto", sans-serif;
+  font-family: "ArialRegular";
+  font-size: 16px;
+  line-height: 27px;
+  color: #999999;
   outline: 0;
-  background: #f2f2f2;
+  background: #fff;
   width: 240px;
   border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
+  margin: 0 0 10px;
+  padding: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 14px; }
+  border: 1px solid #999999;
+  border-radius: 9px; }
 
 .header-register__button {
   font-family: "RobotoSlabRegular";
@@ -497,7 +500,7 @@ template {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  margin-top: -10px; }
+  margin-top: 0px; }
 
 .header-register__button:hover, .header-register__button:active, .header-register__button:focus {
   background: #f2594b; }
@@ -605,8 +608,7 @@ template {
   color: #00a99d;
   text-align: center;
   position: relative;
-  bottom: 50px;
-  left: -15px; }
+  bottom: 55px; }
 
 .card__box {
   display: -webkit-box;
@@ -637,20 +639,22 @@ template {
   bottom: 45px; }
 
 .main-card__title {
-  width: 240px;
   padding-left: 72px;
-  padding-right: 80px;
-  padding-top: 30px;
+  padding-right: 90px;
+  padding-top: 20px;
   font-family: "RobotoSlabBold";
   font-size: 15px;
   color: #cf1100;
   text-align: center; }
+  .main-card__title--second {
+    padding-left: 20px;
+    padding-right: 50px; }
 
 .main-card__list {
   list-style-image: url("/img/card_list.png");
   padding-bottom: 20px;
   position: relative;
-  bottom: 10px; }
+  bottom: 5px; }
 
 .main-card__element {
   font-family: "RobotoSlabRegular";
@@ -658,6 +662,8 @@ template {
   line-height: 36px;
   margin-left: 30px;
   padding-right: 15px; }
+  .main-card__element--second {
+    margin-left: 10px; }
 
 .partners {
   width: 100%;
@@ -675,7 +681,7 @@ template {
   line-height: 27px;
   color: #00a99d;
   padding-left: 235px;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 .partners-card__list {
   list-style-type: none;
@@ -686,8 +692,7 @@ template {
       flex-wrap: wrap;
   position: relative;
   bottom: 30px;
-  margin-left: 50px;
-  margin-right: 40px;
+  margin-left: 100px;
   margin-top: 55px; }
 
 .partners-card__element {
@@ -701,8 +706,8 @@ template {
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
-    top: 20px;
-    right: 30px; }
+    top: 35px;
+    right: 40px; }
   .partners-card__element--teachers:before {
     content: "";
     display: block;
@@ -713,10 +718,7 @@ template {
     background-position: center bottom;
     position: relative;
     top: 20px;
-    right: 30px; }
-  .partners-card__element--style {
-    position: relative;
-    bottom: 20px; }
+    right: 40px; }
   .partners-card__element--style:before {
     content: "";
     display: block;
@@ -727,7 +729,7 @@ template {
     background-position: center bottom;
     position: relative;
     top: 20px;
-    right: 30px; }
+    right: 40px; }
   .partners-card__element--tech:before {
     content: "";
     display: block;
@@ -737,7 +739,7 @@ template {
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
-    top: 20px;
+    top: 30px;
     right: 30px; }
   .partners-card__element--traning:before {
     content: "";
@@ -748,7 +750,7 @@ template {
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
-    top: 20px;
+    top: 25px;
     right: 30px; }
   .partners-card__element--individual:before {
     content: "";
@@ -760,7 +762,7 @@ template {
     background-position: center bottom;
     position: relative;
     top: 20px;
-    right: 30px; }
+    right: 35px; }
 
 .partners-card__element {
   position: relative;
@@ -771,7 +773,7 @@ template {
   padding-right: 40px;
   position: relative;
   left: 20px;
-  bottom: 15px;
+  bottom: 10px;
   font-family: "ArialRegular";
   font-size: 16px;
   line-height: 21px; }
@@ -815,7 +817,7 @@ template {
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   position: relative;
   bottom: 50px;
-  margin-top: 40px; }
+  margin-top: 60px; }
 
 .guarantee-card__title {
   width: 180px;
@@ -836,7 +838,8 @@ template {
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
-    top: 20px; }
+    top: 25px;
+    right: 15px; }
   .guarantee-card__title--traning:before {
     content: "";
     display: block;
@@ -858,30 +861,50 @@ template {
     position: relative;
     top: 20px; }
 
+.guarantee-card__title--partners {
+  bottom: 45px;
+  padding-left: 15px; }
+
 .guarantee-card__title--traning {
   position: relative;
   bottom: 35px; }
 
 .guarantee-card__list {
-  width: 160px;
   list-style-image: url("/img/guaran_card.png");
   padding-bottom: 20px;
   position: relative;
   bottom: 23px;
-  right: 10px; }
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .guarantee-card__list--partners {
     position: relative;
-    bottom: 40px; }
+    bottom: 55px; }
+  .guarantee-card__list--traning {
+    bottom: 35px; }
 
 .guarantee-card__element {
+  width: 200px;
   font-family: "ArialRegular";
   font-size: 13px;
-  padding-bottom: 10px;
-  color: #252525; }
+  line-height: 16px;
+  color: #252525;
+  text-align: left;
+  margin-bottom: 12px; }
+  .guarantee-card__element--traning {
+    width: 180px;
+    margin-bottom: 10px; }
 
 .calculation {
   position: relative;
-  bottom: 30px; }
+  bottom: 30px;
+  bottom: 40px;
+  right: 25px; }
 
 .calculation__title {
   font-family: "RobotoSlabBold";
@@ -894,7 +917,7 @@ template {
   width: 940px;
   height: 345px;
   border-radius: 7px;
-  margin-left: 40px;
+  margin-left: 60px;
   position: relative;
   bottom: 20px; }
 
@@ -985,7 +1008,7 @@ template {
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
-  bottom: 50px;
+  bottom: 100px;
   left: 430px; }
 
 .calculation_range__description {
@@ -1081,12 +1104,37 @@ template {
   left: 90px; }
 
 .tab-panels__description {
-  font-family: "Arial";
+  font-family: "ArialRegular";
   font-size: 14px;
   color: #000;
   position: relative;
   bottom: 200px;
+  left: 25px;
   text-align: center; }
+  .tab-panels__description--second {
+    font-size: 16px;
+    bottom: 210px; }
+
+.calc_range {
+  position: relative;
+  bottom: 10px;
+  margin-left: 20px; }
+
+.calc_range::before {
+  content: "Роялти";
+  display: block;
+  position: relative;
+  font-family: "RobotoSlabRegular";
+  font-size: 12px;
+  line-height: 27px;
+  color: #b6b6b6;
+  left: 40px;
+  top: 3px; }
+
+.calc_range input {
+  margin-left: 100px;
+  position: relative;
+  bottom: 20px; }
 
 .form_title {
   font-family: "RobotoSlabBold";
@@ -1095,7 +1143,7 @@ template {
   color: #1bb0a6;
   text-align: center;
   position: relative;
-  top: 65px; }
+  top: 55px; }
 
 .form_description {
   font-family: "RobotoSlabRegular";
@@ -1104,7 +1152,7 @@ template {
   color: #2c2c2c;
   text-align: center;
   position: relative;
-  top: 45px; }
+  top: 35px; }
 
 /* Стили формы */
 #application {
@@ -1134,45 +1182,45 @@ template {
   border: 1px solid #30ad64; }
 
 /*Стили текста, выводящегося в placeholder*/
-::-webkit-input-placeholder {
+#application::-webkit-input-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
-::-moz-placeholder {
+#application::-moz-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
 /* Firefox 19+ */
-:-moz-placeholder {
+#application:-moz-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
 /* Firefox 18- */
-:-ms-input-placeholder {
+#application:-ms-input-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
-::-webkit-input-placeholder {
+#application::-webkit-input-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
-::-ms-input-placeholder {
+#application::-ms-input-placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
   line-height: 27px; }
 
-::placeholder {
+#application::placeholder {
   font-family: "ArialRegular";
   color: #9c9c9c;
   font-size: 16px;
@@ -1230,7 +1278,7 @@ template {
   background-image: url("/img/faq_back.png");
   background-repeat: no-repeat;
   position: relative;
-  bottom: 160px; }
+  bottom: 170px; }
 
 .faq_title {
   font-family: "RobotoSlabBold";
@@ -1251,7 +1299,11 @@ template {
 
 .main_question {
   width: 420px;
-  height: 120px; }
+  height: 120px;
+  margin-bottom: 10px; }
+  .main_question--column {
+    position: relative;
+    left: 20px; }
 
 .faq__question {
   width: 330px;
@@ -1284,10 +1336,12 @@ template {
   color: #333333;
   position: relative;
   bottom: 50px; }
+  .faq__answer--add {
+    padding-top: 15px; }
 
 .reviews {
   position: relative;
-  bottom: 145px; }
+  bottom: 155px; }
 
 .reviews_title {
   font-family: "RobotoSlabBold";
@@ -1335,8 +1389,8 @@ template {
   line-height: 18px;
   color: #3f3f3f;
   position: relative;
-  bottom: 125px;
-  left: 120px; }
+  bottom: 140px;
+  left: 115px; }
 
 .reviews__text::before {
   content: "";
@@ -1346,8 +1400,7 @@ template {
   background-image: url("/img/open_quote.png");
   background-repeat: no-repeat;
   position: relative;
-  top: 5px;
-  right: 20px; }
+  right: 25px; }
 
 .reviews__text::after {
   content: "";
@@ -1358,7 +1411,18 @@ template {
   background-repeat: no-repeat;
   position: relative;
   bottom: 15px;
-  left: 50px; }
+  left: 130px; }
+
+.reviews__text--boronina::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 16px;
+  background-image: url("/img/close_quote.png");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 15px;
+  left: 250px; }
 
 .reviews__text {
   quotes: '“' '”'; }
@@ -1370,8 +1434,8 @@ template {
   color: #3f3f3f;
   font-weight: bold;
   position: relative;
-  bottom: 125px;
-  left: 120px; }
+  bottom: 155px;
+  left: 110px; }
 
 .reviews-video {
   display: -webkit-box;
@@ -1399,7 +1463,7 @@ template {
   background-image: url("/img/photos_back.png");
   background-repeat: no-repeat;
   position: relative;
-  bottom: 345px; }
+  bottom: 360px; }
 
 .photos_title {
   font-family: "RobotoSlabBold";
@@ -1414,7 +1478,21 @@ template {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  width: 960px;
+  margin-left: 30px; }
+
+.photo::after {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 38px;
+  background-image: url("/img/plus.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  bottom: 60px;
+  left: 170px; }
 
 .form_questions {
   position: relative;

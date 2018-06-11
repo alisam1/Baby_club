@@ -6,8 +6,7 @@
   color: #00a99d;
   text-align: center;
   position: relative;
-  bottom: 50px;
-  left: -15px;
+  bottom: 55px;
 }
 
 .card__box
@@ -42,14 +41,18 @@
 
 .main-card__title
 {
-  width: 240px;
   padding-left: 72px;
-  padding-right: 80px;
-  padding-top: 30px;
+  padding-right: 90px;
+  padding-top: 20px;
   font-family: "RobotoSlabBold";
   font-size: 15px;
   color: #cf1100;
   text-align: center;
+  &--second
+  {
+    padding-left: 20px;
+    padding-right: 50px;
+  }
 }
 
 .main-card__list
@@ -57,7 +60,7 @@
   list-style-image: url('/img/card_list.png');
   padding-bottom: 20px;
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
 }
 
 .main-card__element
@@ -67,4 +70,9 @@
   line-height: 36px;
   margin-left: 30px;
   padding-right: 15px;
+  &--second
+  {
+    margin-left: 10px;
+  }
+
 }
