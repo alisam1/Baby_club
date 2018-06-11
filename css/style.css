@@ -1080,7 +1080,7 @@ template {
   display: block;
   width: 34px;
   height: 36px;
-  background-image: url("/img/stars_value.png");
+  background-image: url("img/stars_value.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
