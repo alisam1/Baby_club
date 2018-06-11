@@ -7,6 +7,7 @@ var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 var webserver = require('gulp-webserver');
+var packjs = require('pack-js');
 
 gulp.task("style", function() {
   gulp.src("source/sass/style.scss")
