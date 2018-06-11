@@ -16,6 +16,7 @@ var imagemin = require("gulp-imagemin");
 var del = require("del");
 var run = require("run-sequence");
 var packjs = require("pack-js");
+var travis = require("travis");
 
 gulp.task("style", function() {
   gulp.src("source/sass/style.scss")
