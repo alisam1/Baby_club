@@ -506,7 +506,7 @@ template {
   background: #f2594b; }
 
 .page-main {
-  background-image: url("/source/img/main_background.png");
+  background-image: url("../img/main_background.png");
   background-repeat: no-repeat; }
 
 .features {
