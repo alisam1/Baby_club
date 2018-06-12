@@ -434,6 +434,7 @@ template {
   left: 320px; }
 
 .header-form__title {
+  width: 180px;
   font-family: "RobotoSlabBold";
   color: #fff;
   font-size: 21px;
