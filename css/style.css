@@ -431,7 +431,7 @@ template {
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 10px;
   bottom: 430px;
-  left: 320px; }
+  margin-left: 680px; }
 
 .header-form__title {
   width: 180px;
@@ -440,7 +440,7 @@ template {
   font-size: 21px;
   position: relative;
   bottom: 425px;
-  left: 740px; }
+  margin-left: 740px;}
 
 .header-form__top {
   height: 85px;
@@ -1248,7 +1248,7 @@ template {
 .form_awards {
   width: 250px;
   position: relative;
-  left: 100px;
+  margin-left: 100px;
   bottom: 90px; }
 
 .awards_description {
@@ -1523,7 +1523,7 @@ template {
       justify-content: space-around;
   position: relative;
   margin-top: 70px;
-  left: 50px; }
+  margin-left: 50px; }
 
 .block-two {
   width: 640px;
@@ -1534,7 +1534,7 @@ template {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  left: 140px; }
+  margin-left: 140px; }
 
 .sponsor__photo--russia {
   position: relative;
