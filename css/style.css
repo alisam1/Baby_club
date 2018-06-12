@@ -405,7 +405,7 @@ template {
   color: #6b6b6b;
   position: relative;
   bottom: 67px;
-  left: 30px; }
+  margin-left: 30px; }
 
 .header-video__text::after {
   content: "";
@@ -417,7 +417,7 @@ template {
   background-position: center bottom;
   position: relative;
   bottom: 23px;
-  left: 220px; }
+  margin-left: 220px; }
 
 .header-form {
   position: relative;
