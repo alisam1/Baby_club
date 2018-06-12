@@ -1055,7 +1055,7 @@ template {
   line-height: 21px;
   color: #999999;
   position: relative;
-  left: 100px;
+  margin-left: 100px;
   top: 10px;
   bottom: 20px; }
 
