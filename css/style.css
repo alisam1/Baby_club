@@ -1045,7 +1045,7 @@ template {
   background-repeat: no-repeat;
   background-image: url("../img/back_value.png");
   position: relative;
-  left: 590px;
+  margin-left: 590px;
   bottom: 220px; }
 
 .calculation__value--description {
