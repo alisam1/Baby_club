@@ -1504,7 +1504,7 @@ template {
   background-image: url("/img/footer_back.png");
   background-repeat: no-repeat;
   margin-top: -355px;
-  margin-left: 330px; }
+}
 
 .footer_title {
   font-family: "RobotoSlabBold";
