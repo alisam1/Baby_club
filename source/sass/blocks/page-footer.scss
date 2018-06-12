@@ -80,9 +80,10 @@
   left: 10px;
 }
 
+@media (min-width: $mobile-width) and (max-width: $desktop-width){
+  .page-footer
+  {
+    margin-left: 0px;
+  }
 
-@media screen and (min-width: $mobile-width) and (max-width: $desktop-width)
-.page-footer
-{
-  margin-left: 0px;
 }
