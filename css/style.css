@@ -1073,7 +1073,7 @@ template {
 
 .range_value {
   position: relative;
-  left: 100px;
+  margin-left: 100px;
   bottom: 40px; }
 
 .range_value::before {
@@ -1102,7 +1102,7 @@ template {
   color: #333333;
   position: relative;
   bottom: 60px;
-  left: 90px; }
+  margin-left: 90px; }
 
 .tab-panels__description {
   font-family: "ArialRegular";
@@ -1110,7 +1110,7 @@ template {
   color: #000;
   position: relative;
   bottom: 200px;
-  left: 25px;
+  margin-left: 25px;
   text-align: center; }
   .tab-panels__description--second {
     font-size: 16px;
@@ -1129,7 +1129,7 @@ template {
   font-size: 12px;
   line-height: 27px;
   color: #b6b6b6;
-  left: 40px;
+  margin-left: 40px;
   top: 3px; }
 
 .calc_range input {
