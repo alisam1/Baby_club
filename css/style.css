@@ -314,7 +314,7 @@ template {
   content: "";
   display: block;
   height: 8px;
-  background-image: url("/img/header_wave.png");
+  background-image: url("../img/header_wave.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -355,7 +355,7 @@ template {
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url("/img/telephone.png");
+  background-image: url("../img/telephone.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -378,7 +378,7 @@ template {
 
 .header-block {
   height: 433px;
-  background-image: url("../source/img/main_fon.png");
+  background-image: url("../img/main_fon.png");
   background-repeat: no-repeat;
   z-index: 2;
   position: relative;
@@ -412,7 +412,7 @@ template {
   display: block;
   width: 28px;
   height: 28px;
-  background-image: url("/img/video_button.png");
+  background-image: url("../img/video_button.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -538,7 +538,7 @@ template {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url("/img/old.png");
+    background-image: url("../img/old.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -549,7 +549,7 @@ template {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url("/img/buisness.png");
+    background-image: url("../img/buisness.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -560,7 +560,7 @@ template {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url("/img/club.png");
+    background-image: url("../img/club.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -570,7 +570,7 @@ template {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url("/img/progress.png");
+    background-image: url("../img/progress.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -580,7 +580,7 @@ template {
     display: block;
     width: 90px;
     height: 90px;
-    background-image: url("/img/brand.png");
+    background-image: url("../img/brand.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -651,7 +651,7 @@ template {
     padding-right: 50px; }
 
 .main-card__list {
-  list-style-image: url("/img/card_list.png");
+  list-style-image: url("../img/card_list.png");
   padding-bottom: 20px;
   position: relative;
   bottom: 5px; }
@@ -668,7 +668,7 @@ template {
 .partners {
   width: 100%;
   height: 301px;
-  background-image: url("/img/partners_background.png");
+  background-image: url("../img/partners_background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,7 +702,7 @@ template {
     display: block;
     width: 27px;
     height: 40px;
-    background-image: url("/img/progress_c.png");
+    background-image: url("../img/progress_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -713,7 +713,7 @@ template {
     display: block;
     width: 33px;
     height: 28px;
-    background-image: url("/img/teach_c.png");
+    background-image: url("../img/teach_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -724,7 +724,7 @@ template {
     display: block;
     width: 31px;
     height: 32px;
-    background-image: url("/img/style_c.png");
+    background-image: url("../img/style_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -735,7 +735,7 @@ template {
     display: block;
     width: 29px;
     height: 32px;
-    background-image: url("/img/techn_c.png");
+    background-image: url("../img/techn_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -746,7 +746,7 @@ template {
     display: block;
     width: 32px;
     height: 33px;
-    background-image: url("/img/traning_c.png");
+    background-image: url("../img/traning_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -757,7 +757,7 @@ template {
     display: block;
     width: 33px;
     height: 30px;
-    background-image: url("/img/indiv_c.png");
+    background-image: url("../img/indiv_c.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -834,7 +834,7 @@ template {
     display: block;
     width: 27px;
     height: 40px;
-    background-image: url("/img/part_g.png");
+    background-image: url("../img/part_g.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -845,7 +845,7 @@ template {
     display: block;
     width: 27px;
     height: 40px;
-    background-image: url("/img/traning_g.png");
+    background-image: url("../img/traning_g.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -855,7 +855,7 @@ template {
     display: block;
     width: 29px;
     height: 25px;
-    background-image: url("/img/support_g.png");
+    background-image: url("../img/support_g.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative;
@@ -870,7 +870,7 @@ template {
   bottom: 35px; }
 
 .guarantee-card__list {
-  list-style-image: url("/img/guaran_card.png");
+  list-style-image: url("../img/guaran_card.png");
   padding-bottom: 20px;
   position: relative;
   bottom: 23px;
@@ -984,7 +984,7 @@ template {
   border-top: 1px solid #ccc;
   width: 940px;
   height: 345px;
-  background-image: url("/img/calc_back.png");
+  background-image: url("../img/calc_back.png");
   background-repeat: no-repeat;
   border-radius: 7px;
   position: relative;
@@ -994,7 +994,7 @@ template {
   width: 411px;
   height: 188px;
   background-repeat: no-repeat;
-  background-image: url("/img/back_calc.png");
+  background-image: url("../img/back_calc.png");
   position: relative;
   left: 30px;
   bottom: 10px; }
@@ -1004,7 +1004,7 @@ template {
   display: block;
   width: 133px;
   height: 63px;
-  background-image: url("/img/arr_value.png");
+  background-image: url("../img/arr_value.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1031,7 +1031,7 @@ template {
   display: block;
   width: 39px;
   height: 41px;
-  background-image: url("/img/rocket.png");
+  background-image: url("../img/rocket.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1042,7 +1042,7 @@ template {
   width: 325px;
   height: 188px;
   background-repeat: no-repeat;
-  background-image: url("/img/back_value.png");
+  background-image: url("../img/back_value.png");
   position: relative;
   left: 590px;
   bottom: 220px; }
@@ -1063,7 +1063,7 @@ template {
   display: block;
   width: 34px;
   height: 36px;
-  background-image: url("/img/star_value.png");
+  background-image: url("../img/star_value.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1080,7 +1080,7 @@ template {
   display: block;
   width: 34px;
   height: 36px;
-  background-image: url("/source/img/stars_value.png");
+  background-image: url("../img/stars_value.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1265,7 +1265,7 @@ template {
   display: block;
   width: 94px;
   height: 125px;
-  background-image: url("/img/awards.png");
+  background-image: url("../img/awards.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1275,7 +1275,7 @@ template {
 .faq {
   width: 1020px;
   height: 523px;
-  background-image: url("/img/faq_back.png");
+  background-image: url("../img/faq_back.png");
   background-repeat: no-repeat;
   position: relative;
   bottom: 170px; }
@@ -1323,7 +1323,7 @@ template {
   display: block;
   width: 25px;
   height: 33px;
-  background-image: url("/img/faq_icon.png");
+  background-image: url("../img/faq_icon.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative; }
@@ -1368,7 +1368,7 @@ template {
   display: block;
   width: 103px;
   height: 106px;
-  background-image: url("/img/boronina.png");
+  background-image: url("../img/boronina.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative; }
@@ -1378,7 +1378,7 @@ template {
   display: block;
   width: 104px;
   height: 106px;
-  background-image: url("/img/doroshkova.png");
+  background-image: url("../img/doroshkova.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative; }
@@ -1397,7 +1397,7 @@ template {
   display: block;
   width: 20px;
   height: 16px;
-  background-image: url("/img/open_quote.png");
+  background-image: url("../img/open_quote.png");
   background-repeat: no-repeat;
   position: relative;
   right: 25px; }
@@ -1407,7 +1407,7 @@ template {
   display: block;
   width: 20px;
   height: 16px;
-  background-image: url("/img/close_quote.png");
+  background-image: url("../img/close_quote.png");
   background-repeat: no-repeat;
   position: relative;
   bottom: 15px;
@@ -1418,7 +1418,7 @@ template {
   display: block;
   width: 20px;
   height: 16px;
-  background-image: url("/img/close_quote.png");
+  background-image: url("../img/close_quote.png");
   background-repeat: no-repeat;
   position: relative;
   bottom: 15px;
@@ -1451,7 +1451,7 @@ template {
   display: block;
   width: 64px;
   height: 65px;
-  background-image: url("/img/video_play.png");
+  background-image: url("../img/video_play.png");
   background-repeat: no-repeat;
   position: relative;
   top: 100px;
@@ -1460,7 +1460,7 @@ template {
 .photos {
   width: 1020px;
   height: 325px;
-  background-image: url("/img/photos_back.png");
+  background-image: url("../img/photos_back.png");
   background-repeat: no-repeat;
   position: relative;
   bottom: 360px; }
@@ -1487,7 +1487,7 @@ template {
   display: block;
   width: 33px;
   height: 38px;
-  background-image: url("/img/plus.png");
+  background-image: url("../img/plus.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   position: relative;
@@ -1501,7 +1501,7 @@ template {
 .page-footer {
   width: 1020px;
   height: 352px;
-  background-image: url("/img/footer_back.png");
+  background-image: url("../img/footer_back.png");
   background-repeat: no-repeat;
   margin-top: -355px;
   margin-left: 330px; }
